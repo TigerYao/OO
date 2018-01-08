@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_title_height">
+
+        <ImageView
+            android:layout_width="@dimen/main_title_height"
+            android:layout_height="@dimen/main_title_height"
+            android:layout_alignParentLeft="true"
+            android:scaleType="center"
+            android:src="@drawable/image_back_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/local"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_title_text_size" />
+
+        <TextView
+            android:layout_width="@dimen/main_title_height"
+            android:layout_height="@dimen/main_title_height"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="Save"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_title_size" />
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/topic_type_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_title_height"
+        android:background="@drawable/huase_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/topic_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/new_task_normal"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/topic_professional"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/new_task_professional"
+            android:textColor="@color/color_F4AEBC" />
+    </RadioGroup>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_12"
+                android:text="@string/choose_normal_topic"
+                android:textSize="@dimen/normal_title_text_size" />
+
+            <com.taiwan.oomatcher.widget.GridDirectView
+                android:id="@+id/topics_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="4"
+                android:padding="@dimen/dp_12"
+                android:scrollbars="none" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/image_button_addusernumber"
+                android:drawablePadding="@dimen/dp_10"
+                android:padding="@dimen/dp_12"
+                android:text="@string/create_personal_service_name"
+                android:textColor="@color/color_DDDDDD"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                style="@style/comment_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_task_brief" />
+
+            <EditText style="@style/comment_input_text_style" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/comment_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available Time" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20">
+
+                <TextView
+                    style="@style/comment_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:text="@string/stay_place" />
+
+                <ToggleButton
+                    android:id="@+id/open_place"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/toggle_btn_my"
+                    android:checked="false"
+                    android:gravity="right|center_vertical"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/comment_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/meet_place" />
+
+            <EditText
+                style="@style/comment_input_text_style"
+                android:layout_height="wrap_content"
+                android:minLines="4" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:gravity="right|center_vertical"
+                android:button="@null"
+                android:drawableRight="@drawable/img_check_box_selector"
+                android:textSize="@dimen/sp_10"
+                android:layout_marginRight="@dimen/dp_12"
+                android:drawablePadding="@dimen/dp_5"
+                android:textColor="@color/color_DDDDDD"
+                android:text="depend on the other party"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/comment_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rents_tip" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_666666"
+                android:padding="@dimen/dp_12">
+
+                <include layout="@layout/rents_layout" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/comment_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/will_do" />
+
+            <EditText
+                style="@style/comment_input_text_style"
+                android:layout_height="wrap_content"
+                android:minLines="4" />
+
+            <TextView
+                style="@style/comment_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/will_provide" />
+
+            <EditText
+                style="@style/comment_input_text_style"
+                android:layout_height="wrap_content"
+                android:minLines="4" />
+
+            <TextView
+                style="@style/comment_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notes" />
+
+            <EditText
+                style="@style/comment_input_text_style"
+                android:layout_height="wrap_content"
+                android:minLines="4" />
+
+            <TextView
+                style="@style/comment_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/image_button_addusernumber"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="center"
+                android:text="@string/add_photos_videos" />
+
+            <Gallery
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_221" />
+
+            <EditText style="@style/comment_input_text_style" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_12"
+                android:paddingBottom="@dimen/dp_2"
+                android:paddingLeft="@dimen/dp_12"
+                android:paddingStart="@dimen/dp_12"
+                android:text="@string/age_requirement"
+                android:textColor="@color/color_666666"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_12"
+                android:drawableRight="@drawable/image_bottom_black"
+                android:paddingBottom="@dimen/dp_2"
+                android:paddingLeft="@dimen/dp_12"
+                android:paddingStart="@dimen/dp_12"
+                android:text="@string/age_tips"
+                android:textColor="@color/color_666666"
+                android:textSize="@dimen/sp_12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_12">
+
+                <TextView
+                    style="@style/comment_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pay_deposit" />
+
+                <ToggleButton
+                    android:id="@+id/open_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/toggle_btn_my"
+                    android:checked="false"
+                    android:gravity="right|center_vertical"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

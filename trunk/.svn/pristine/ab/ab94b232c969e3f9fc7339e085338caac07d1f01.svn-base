@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/language_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_language_title01"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="160dp"
+        android:text="@string/select_language_title02"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/select_language"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_height"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:layout_marginRight="@dimen/layout_marginRight"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_border_white"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:layout_marginRight="@dimen/layout_marginRight"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="@string/select_language_btn"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_tip_color">#ff9999B2</color>
+    <color name="bg_title_normal">#ff525057</color>
+    <color name="bg_main">#ffD6D4D6</color>
+    <color name="bg_main1">#ff525057</color>
+    <color name="bg_taiwan">#ff9EC6C5</color>
+    <color name="bg_taiwan_pressed">#C39EC6C5</color>
+    <color name="border">#ffF7A7B7</color>
+    <color name="border_pressed">#C3F7A7B7</color>
+    <color name="text_fense_normal">#ffF7A7B7</color>
+    <color name="text_fense_pressed">#C3F7A7B7</color>
+    <color name="text_lanse_normal">#ffA8CCC8</color>
+    <color name="text_lanse_pressed">#C3A8CCC8</color>
+    <color name="my_main_bg">#FF949599</color>
+    <color name="main_activity_bg">#FF504D53</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#9EC6C5</color>
+    <color name="colorSeekBarDefault">#c3c3c3</color>
+    <!-- 主色调 -->
+    <color name="ixuehao_title_change">#ff128ef8</color>
+    <color name="ixuehao_title">#ff128ef8</color>
+    <color name="ixuehao_main_red">#fff86a77</color>
+    <color name="ixuehao_second_color">#ff62b7ff</color>
+    <color name="ixuehao_title_pressed">#E6128ef8</color>
+    <color name="second_classroom_title">#ff128ef8</color>
+    <color name="base_line_color">#ffd8d7d7</color>
+    <color name="tabbar_text_normal">#ff666666</color>
+    <color name="tabbar_text_selected">#ff128ef8</color>
+    <color name="tab_indicator_text_selected">#ff128ef8</color>
+    <color name="tab_indicator_text_unselected">#ff555555</color>
+    <!-- activity的背景色 -->
+    <color name="common_background">#fff1f0f0</color>
+    <!-- 常用输入框提示字体颜色 -->
+    <color name="common_color_hint">#ff999999</color>
+    <color name="common_text_color_normal">#ff333333</color>
+    <color name="common_text_color_normal_grey">#ff666666</color>
+    <!-- 以上是公共颜色库 -->
+    <color name="half_color">#30000000</color>
+
+    <!-- 企业蓝 -->
+    <color name="common_enterprise">#ff51a3f7</color>
+    <color name="common_enterprise_pressed">#B051a3f7</color>
+    <!-- 个人粉红 -->
+    <color name="common_persion">#fffa677d</color>
+    <color name="common_persion_pressed">#B0fa677d</color>
+    <!-- 个人粉红 -->
+    <color name="common_share">#ff128ef8</color>
+    <color name="common_share_pressed">#ff128ef8</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="taiwan_black_1">#FF5E5F62</color>
+    <!-- 公共部分 -->
+    <color name="black">#ff000000</color>
+    <color name="black_pressed">#C6000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="red_pressed">#80ff0000</color>
+    <color name="transparent">#00000000</color>
+    <drawable name="transparent">#00000000</drawable>
+    <color name="white">#ffffffff</color>
+    <color name="white_pressed">#C6ffffff</color>
+    <color name="main_head_circle_border">#ff969696</color>
+
+
+    <color name="page_viewer_margin_color">#ffffff</color>
+    <color name="bg_title">#5f6297</color>
+
+    <color name="common_bg">#ffe8e8e8</color>
+    <color name="common_big_text">#323232</color>
+    <color name="common_small_text">#969696</color>
+    <color name="common_line_background">#e5e3e1</color>
+
+    <color name="common_middle_text">#646464</color>
+    <color name="common_gray_color_new">#9a9a9a</color>
+    <color name="common_gold">#fdbf03</color>
+    <color name="woman">#ef7ba6</color>
+    <color name="man">#4cbbff</color>
+    <!-- 灰色 -->
+    <color name="grey">#808080</color>
+
+    <!-- 常用蓝绿色字体颜色 -->
+    <color name="common_color">#ff128ef8</color>
+
+    <!-- 常用左边标题颜色 -->
+    <color name="common_color_title">#ff323232</color>
+
+    <!-- 常用紫色背景颜色 -->
+    <color name="common_color_purple">#5f6297</color>
+    <!-- 亮粉红色 -->
+    <color name="orange">#ff62b7ff</color>
+    <color name="my_dark_grey">#666666</color>
+    <color name="dark_grey_555">#ff555555</color>
+    <color name="dialogColor">#f0ffffff</color>
+    <color name="dialogTxtColor">#0048fc</color>
+    <!-- 红色 -->
+    <color name="text_color_red">#fffc4226</color>
+    <color name="text_color_red_pressed">#ffff9b9b</color>
+    <color name="text_color_enabled">#ffa6a6a6</color>
+    <color name="gray">#e6e6e6</color>
+    <color name="text_blue">#ff0079ff</color>
+
+    <!-- job -->
+    <color name="f5">#f5f5f5</color>
+    <color name="job_pop">#9acaff</color>
+    <!-- 亮灰色 -->
+    <color name="lightgrey">#d3d3d3</color>
+    <!-- 亮灰色 -->
+    <color name="school_text_color">#ff999999</color>
+    <!-- 学币主颜色 -->
+    <color name="coin_color">#ff7300</color>
+    <color name="divider_list">#cccccc</color>
+    <color name="e5">#e5e5e5</color>
+    <color name="fa">#fafafa</color>
+    <!--zxing颜色-->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_frame">#ff88ae00</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <!-- 二维码扫描页面蓝色 -->
+    <color name="QR_Scan_Bule">#51a3f8</color>
+
+    <color name="red_packet">#FFe85946</color>
+    <!-- 二维码背景蓝 -->
+    <color name="join_group_bg">#b2d4f6</color>
+    <!--大赛专区-->
+    <color name="ticket">#ff434242</color>
+    <color name="organizations">#ff474747</color>
+    <color name="school">#ff818181</color>
+    <!--我的账户-->
+    <color name="line_color">#e3e2e1</color>
+    <color name="cash_num_color">#e85946</color>
+    <color name="cash_withdraw_color">#4f7eac</color>
+    <!--日期选择-->
+    <color name="darker_blue">#ff0099cc</color>
+    <color name="date_picker_text_normal">#ff999999</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="transparent_black">#7F000000</color>
+    <color name="calendar_header">#ff999999</color>
+    <color name="date_picker_view_animator">#fff2f2f2</color>
+    <color name="line_background">#ffcccccc</color>
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="circle_background">#fff2f2f2</color>
+    <color name="done_text_color_normal">#ff333333</color>
+    <color name="done_text_color_disabled">#ffcccccc</color>
+    <color name="task_sub_title_click">#0099FF</color>
+    <color name="my_black">#333333</color>
+    <color name="pocket_pink">#f86865</color>
+    <color name="pocket_pink_bg">#fe8c8b</color>
+    <color name="pocket_blue">#409cfe</color>
+    <color name="task_num_part">#999999</color>
+    <color name="task_num_success">#f5a100</color>
+    <color name="task_num_ing">#70b4fa</color>
+    <color name="rectangle_round_white_in_shape_black">#a2a1a1</color>
+    <color name="recommend_label_content">#777777</color>
+    <color name="recommend_line_bg">#d8d7d7</color>
+    <color name="recommend_splendid_label1">#a9a9a9</color>
+    <color name="recommend_splendid_label2">#999999</color>
+
+    <color name="text_color_cash">#525252</color>
+    <color name="release_text_color">#b4b4b4</color>
+    <color name="normal_text_color">#b0b0b0</color>
+    <color name="packet_bt_color">#f19081</color>
+    <!-- 第二课堂 -->
+    <color name="sc_detail_color">#ffbde1ff</color>
+    <color name="sc_period_count_color">#ff1080df</color>
+    <color name="sc_period_count_press_color">#ff006ac3</color>
+    <color name="sc_transcripts_title_color">#ff82c5ff</color>
+    <color name="sc_popup_bg_color">#ffbce0ff</color>
+    <color name="sc_edittext_baseline_color">#ffe0dfdf</color>
+    <color name="sc_edittext_hint_color">#ffc0bcbc</color>
+    <color name="apply_credits_status">#ffacabab</color>
+    <!-- 我要报名 进度条 -->
+    <color name="apply_indicator_progressbar_progress">#ff5cb4ff</color>
+    <color name="apply_indicator_progressbar_bg">#ffd5d0d0</color>
+
+    <color name="wheel_timebtn_nor">#ff18b4ed</color>
+    <color name="wheel_timebtn_pre">#6018b4ed</color>
+    <!-- 社团上市、股票 -->
+    <color name="stock_fall">#ff62bb8f</color>
+    <color name="stock_up">#fff86a77</color>
+    <color name="stock_buy">#FFF86A78</color>
+    <color name="stock_sale">#FF118EF8</color>
+    <color name="list_hint_color">#52a5ec</color>
+    <color name="live_chat_man">#FF118EF8</color>
+    <color name="live_chat_women">#FFf86a77</color>
+    <color name="stock_could_buy_num_color">#FFf46d00</color>
+    <!-- 公示信息 -->
+    <color name="pub_user_information">#ffff425d</color>
+    <color name="pub_apply_credits">#ff449fff</color>
+    <color name="live_room_notification">#ffffde00</color>
+
+    <color name="apply_share_error">#fff8a677</color>
+    <color name="apply_share_ing">#ff0f9a55</color>
+    <color name="apply_share_success">#ff128ef8</color>
+
+    <color name="game_center_btn">#ff4bacff</color>
+    <color name="color_95C6C6">#95C6C6</color>
+    <color name="color_814B9A">#814B9A</color>
+    <color name="color_F4AEBC">#F4AEBC</color>
+    <color name="color_EFEFF0">#EFEFF0</color>
+    <color name="color_5C5D5D">#5C5D5D</color>
+    <color name="color_A09FB5">#A09FB5</color>
+    <color name="color_514C53">#514C53</color>
+    <color name="color_3A3342">#3A3342</color>
+    <color name="color_89898A">#89898A</color>
+    <color name="color_DDDDDD">#DDDDDD</color>
+    <color name="color_666666">#666</color>
+
+
+</resources>

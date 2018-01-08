@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.taiwan.oomatcher.widget.HackyViewPager
+            android:id="@+id/img_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+        </com.taiwan.oomatcher.widget.HackyViewPager>
+
+        <FrameLayout
+            android:id="@+id/top_main_fl"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/transparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.6"
+                android:background="@color/black">
+
+                <ImageButton
+                    android:id="@+id/return_imgBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/picture_choose_close_preview_btn"
+                    android:scaleType="fitXY"/>
+
+
+                <ImageView
+                    android:id="@+id/selecter_imgView"
+                    android:layout_width="@dimen/image_check_box_size"
+                    android:layout_height="@dimen/image_check_box_size"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/check_box_selector"
+                    android:button="@null"
+                    android:checked="false"/>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/bottom_main_fl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/transparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.6"
+                android:background="@color/black">
+
+                <TextView
+                    android:id="@+id/complete_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:text="@string/ok"
+                    android:textColor="@color/txt_browse_img_enabled_selector"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/img_count_txt"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/complete_txt"
+                    android:background="@drawable/blue_circle_bg"
+                    android:gravity="center"
+                    android:scaleType="fitXY"
+                    android:textColor="@color/white"/>
+
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button android:id="@+id/account_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_left_setting_account"/>
+    <Button android:id="@+id/language_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_left_setting_language"/>
+    <Button android:id="@+id/currency_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_left_setting_currency"/>
+    <Button android:id="@+id/system_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_left_setting_system"/>
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taiwan.oomatcher"
+    android:versionCode="1"
+    android:versionName="1.0.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <!-- 读取联系人数据 -->
+    <!-- <uses-permission android:name="android.permission.READ_CONTACTS" /> -->
+    <!-- 查阅敏感日志数据 -->
+    <!-- <uses-permission android:name="android.permission.READ_LOGS" /> -->
+    <!-- 屏幕保持唤醒 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 录制视频 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 获取任务信息，允许程序获取当前或最近运行的应用 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 读写系统设置 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 使用振动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 拍照权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- 修改声音设置 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <!-- 允许一个程序获取任何package占用空间容量 -->
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.intera" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <!-- 显示系统窗口 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- suppress DeprecatedClassUsageInspection -->
+    <uses-permission android:name="android.permission.GET_TOP_ACTIVITY_INFO" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <!-- 使用证书 -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <!-- 管理账户 -->
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读取扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 拨打电话 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <application
+        android:name=".base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.Transparent">
+        <activity
+            android:name=".activitys.WelcomeActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activitys.GuideActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.LoginActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.SelectLanguageActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.UserWallActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.TaskWallActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.MessageActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.CompanionRequirementActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.NewTaskActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.MyTaskListActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.UserTaskFilterActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.MapActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.RandomActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.MyProfileActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.MyHireActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.EditProfileActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.SortTaskWallActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.MyTaskDetailsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.PayDepositeActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.CompanionListActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.WhoRentMeOrIRentActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.wallet.MyWalletActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.selectalbum.AllImageListActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.selectalbum.ImageListActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.selectalbum.ImageBrowseActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.AuthenticationActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activitys.MyPhotoListActivity" android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

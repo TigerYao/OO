@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="normal_offer_service_topic">
+        <item>Feast</item>
+        <item>Shopping</item>
+        <item>KTV</item>
+        <item>Clubing</item>
+        <item>Movie</item>
+        <item>Drinking</item>
+        <item>Poker</item>
+        <item>Sport</item>
+        <item>Cooking</item>
+        <item>Laundry</item>
+        <item>Cleaning</item>
+        <item>Food/nGuide</item>
+    </string-array>
+    <string-array name="professional_offer_service_topic">
+        <item>Translater</item>
+        <item>Dancer</item>
+        <item>Tour/nGuide</item>
+        <item>Shopping/nGuide</item>
+        <item>Photographoic/nModel</item>
+        <item>Wine/nTasting</item>
+        <item>Gym/nTrainer</item>
+        <item>Affection/nCounselor</item>
+        <item>Cooking/nTraining</item>
+        <item>Housekeeper</item>
+        <item>Image/nConsultant</item>
+        <item>Food/nGuide</item>
+    </string-array>
+</resources>
